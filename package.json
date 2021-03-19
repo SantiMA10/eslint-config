@@ -6,6 +6,9 @@
   "files": [
     "prettier.config.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "eslint": ">= 7",
