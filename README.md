@@ -12,12 +12,26 @@ npx install-peerdeps --dev @santima10/eslint-config
 
 ## Usage
 
+### Basic TypeScript config
+
 In the `.eslintrc`:
 
 ```plain
 {
   "extends": [
     "@santima10/eslint-config"
+  ]
+}
+```
+
+### Basic NEXT.js + TypeScript config
+
+In the `.eslintrc`:
+
+```plain
+{
+  "extends": [
+    "@santima10/eslint-config/nextjs"
   ]
 }
 ```
