@@ -36,4 +36,16 @@ In the `.eslintrc`:
 }
 ```
 
+### Prettier configuration
+
+Edit `package.json`:
+
+```json
+{
+  // ...
+  "prettier": "@santima10/eslint-config/.prettierrc.json"
+  // ...
+}
+```
+
 Ready to code 🪄
