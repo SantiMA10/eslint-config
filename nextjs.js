@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['plugin:react/recommended', './index.js'],
+	extends: ['plugin:react/recommended', './index.js', 'plugin:@next/next/core-web-vitals'],
 	settings: {
 		react: {
 			version: 'detect',
