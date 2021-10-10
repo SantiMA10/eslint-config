@@ -1,6 +1,6 @@
 {
 	"name": "@santima10/eslint-config",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"main": "index.js",
 	"license": "MIT",
 	"files": [
@@ -12,15 +12,15 @@
 	},
 	"peerDependencies": {
 		"@next/eslint-plugin-next": "^11.1.2",
-		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/eslint-plugin": "^4.33.0",
 		"eslint": ">= 7",
-		"eslint-config-prettier": "^8.1.0",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-jest": "^24.3.2",
-		"eslint-plugin-prettier": "^3.3.1",
-		"eslint-plugin-react": "^7.22.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.24.2",
+		"eslint-plugin-jest": "^25.0.1",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-react": "^7.26.1",
 		"eslint-plugin-simple-import-sort": "^7.0.0",
-		"prettier": "^2.2.1"
+		"prettier": "^2.4.1"
 	},
 	"devDependencies": {},
 	"dependencies": {
