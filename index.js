@@ -31,9 +31,8 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
-		...(hasJest
-			? ['plugin:jest/recommended', 'plugin:jest/style', 'plugin:prettier/recommended']
-			: []),
+		...(hasJest ? ['plugin:jest/recommended', 'plugin:jest/style'] : []),
+		'plugin:prettier/recommended',
 	],
 	rules: {
 		'prettier/prettier': 'error',
@@ -42,5 +41,11 @@ module.exports = {
 		'import/first': 'error',
 		'import/newline-after-import': 'error',
 		'import/no-duplicates': 'error',
+		'@typescript-eslint/no-unused-vars': [
+			'warn',
+			{
+				argsIgnorePattern: '^_',
+			},
+		],
 	},
 };
